@@ -1,0 +1,4 @@
+email,status,motivo
+teste@exemplo.com,Válido,
+invalido-email.com,Inválido,Sintaxe inválida
+usuario@dominio.inexistente12345.com,Inválido,Domínio não encontrado

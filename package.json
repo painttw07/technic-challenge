@@ -1,0 +1,27 @@
+{
+  "name": "technic-challenge",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "playwright test --project=api",
+    "test:web": "playwright test --project=web",
+    "validate:emails": "node tests/04-scripting/validate-emails.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/painttw07/technic-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/painttw07/technic-challenge/issues"
+  },
+  "homepage": "https://github.com/painttw07/technic-challenge#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
